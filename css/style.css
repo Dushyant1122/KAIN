@@ -575,6 +575,31 @@ h6,
   transform: rotate(46deg);
 }
 
+.list-arrow li,
+.list-checkmark li {
+  position: relative;
+}
+
+.list-arrow li {
+  padding: 0 0 1rem 2rem;
+}
+
+.list-arrow li:before,
+.list-checkmark li:before {
+  content: '';
+  position: absolute;
+  top: 4px; /* Adjust this value to position the arrow vertically */
+  left: 0;
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 8px solid #fc5c00; /* You can change the color here */
+  margin: 0.1rem 1.5rem 0.1rem 0.2rem;
+  transform: rotate(45deg); /* Adjust the rotation angle if needed */
+}
+
+
 /* team css */
 
 .card {
