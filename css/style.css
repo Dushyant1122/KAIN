@@ -216,8 +216,6 @@ h6,
 .page-header {
   padding-top: 12rem;
   padding-bottom: 6rem;
-  background: url(../img/header.jpg) top left no-repeat;
-  background-size: cover;
 }
 
 .page-header .breadcrumb-item,
@@ -702,4 +700,26 @@ h6,
   color: #caa652;
   font-size: larger;
   font-weight: bolder;
+}
+
+
+.contact-us-bg{
+  background: url(../img/9.svg) top left no-repeat;
+  background-size: cover;
+}
+.bam-bg{
+  background: url(../img/2.svg) top left no-repeat;
+  background-size: cover;
+}
+.overview-bg{
+  background: url(../img/5.svg) top left no-repeat;
+  background-size: cover;
+}
+.team-bg{
+  background: url(../img/11.svg) top left no-repeat;
+  background-size: cover;
+}
+.objective-bg{
+  background: url(../img/4.svg) top left no-repeat;
+  background-size: cover;
 }
