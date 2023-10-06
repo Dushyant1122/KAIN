@@ -723,3 +723,15 @@ h6,
   background: url(../img/4.svg) top left no-repeat;
   background-size: cover;
 }
+
+@media (max-width: 468px) {
+  .card-text{
+    height: auto !important;
+  }
+  .small-card-text{
+    height: auto !important;
+  }
+  .small-card-text-ul {
+    height: auto !important;
+  }
+}
