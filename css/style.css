@@ -599,6 +599,81 @@ h6,
   transform: rotate(45deg); /* Adjust the rotation angle if needed */
 }
 
+.image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+}
+
+.image-gallery ul {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.image-gallery li {
+  position: relative;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.image-gallery li img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 1;
+  overflow: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.slider {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.slider-button{
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 50%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.prev-btn,
+.next-btn {
+    font-size: 24px; /* Adjust the icon size */
+    background: none;
+    border: none;
+    color: #333; /* Adjust the button color */
+    cursor: pointer;
+    background: white;
+    color: black;
+    padding: 10px;
+    border-radius: 50%;
+    padding-left: 20px;
+    padding-right: 20px;
+}
 
 /* team css */
 
@@ -734,4 +809,15 @@ h6,
   .small-card-text-ul {
     height: auto !important;
   }
+}
+
+.image-h-w{
+  width: 300px;
+  height: 330px;
+}
+
+.gallery-item img{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 1px solid black;
 }
